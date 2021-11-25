@@ -1,0 +1,127 @@
+1)java is a application or programming language?
+Ans:It is an application and also it is a computing platform for application development. Java is a high level
+language,object-0riented language.Java applications are typically compiled to byte code that run on any java
+virtual machine(JVM).
+
+*computing platform is an environment in which a piece of software is executed.
+*object-oriented  programming is a method used for desining a program using classes and objects 
+
+2)Features of java?
+Ans:1)Simple:It is easy to learn and its syntax is simple(java syntax is based on C++,...)
+
+    2)Object-oriented:-basic concepts of oops are:1)Inheritance 2)Polymorphism 3)Abstraction 4)Encapsulation
+    *In Inheritance we can create new classes that are build upon existing classes
+    *In Polymorphism we can perform a single action in different ways
+    *Abstraction is process of hiding the implementation details and showing only functionality to the user
+    *Encapsulation is a process of wrapping code and data together into a single unit
+    *It is the collection of objects and it has state and its behaviour 
+
+   3)Portable:We can carry .class file in any OS
+
+   4)Platform independent:Java code can be executed on multiple platforms 
+     eg:-windows,linux,mac....
+
+   5)Secure:It doesnot contain explicit pointer(A pointer is just the address of some location in memory)
+    java programs run inside a JVM 
+
+   6)Robust:It uses strong memory management 
+ 
+   7)Architecuture-neutral:In either 32-bit/64-bit it occupies 4bytes of memory but not it as like in c/c++
+
+   8)High-performance:Java is an interpreted language that is slower than compiled languages eg:c;c++,...
+
+   9)Multi-threaded:Multiple task can be performed at the same time without consuming more memory
+
+  10)Distributed:Multiple users can access the benefit program from any machine on the internet
+
+  11)Dynamic:Depending on requirement the classes are loaded and unloaded from the memory
+
+  12)Garbage collection:Which is implicitly used by the JVM (*it makes java efficient because GC removes 
+  the unrefrenced objects(run time used memory) from heap memory
+
+3)Why java is platform independent?
+Ans:A sorce code which is converted into byte code with the help of compiler which is converted into HLL into LLL
+  as a .class file this can executed on multiple platforms eg:mac,linux,windows,... 
+
+4)Explain JDK,JRE,JVM ?
+Ans:JDK:Java development kit it is a development environment for building applications,applets,and components 
+  using the java programming language 
+  JRE:Java runtime environment and it is entirely responsible for code execution.A JRE acts as a kind of 
+  translator and facilitator between java program and the OS
+  JVM:It is known as the interpreter or the core of java programming language because it executes java programming
+
+5)What is JIT?
+Ans:It optimizes the performance of the java application at compile or runtime
+
+6)If we write "static public void" instead of "public static void" what will happens?
+Ans:It will execute correctly but public static is the standard way
+ Public:It is a access specifier that means it will be accessible by everyone 
+ Static:It is a keyword which identifies the class related thing.this means the given method or variable is
+ not instance related but class related
+ Void:It is used to define the return type of the method
+ Main:It is the name of the method.This method name is searched by JVM as a starting point for an application
+ String[]args:It is the parameter to the main method. We can keep any name instead of args
+
+7)What is class in java?
+Ans:A class is a group of objects which have common properties.It is a blueprint from which objects are created
+
+8)What is object in java?
+Ans:The ability of state and behaviour
+    It has three characterstics
+    1)State 
+    2)Behaviour
+    3)Identity
+
+9)What are the diffrent types of operators are there in java?
+Ans:operator is a symbol that is used to perform operations.eg:+,*,/,-,....
+    Types of operators
+    1)Unary operator
+    2)Arithmetic operator
+    3)Shift operator
+    4)Relational operator
+    5)Bitwise operator
+    6)Logical operator
+    7)Ternary operator
+    8)Assignment operator
+
+10)Explain about Pre-increment and post-increment?
+Ans:Before assigning the value to the variable(++i),the value is incremented by one
+    After assigning the value to the variable(i++),the value is incremented by one
+
+11)What are flow control statements?
+Ans:Java compiler executes the code from top to bottom.The statements in the code 
+    are executed according to the order in which they appear.however java provides statements that can be used 
+    to control the flow statement
+    It provides three types of control flow statements 
+    1)Decision Making statements 
+    2)Loop statements
+    3)Jump statements
+
+12)What is default value of local variable?
+Ans:Initially(default) it contains null value. We must assign a value before we use a local variable
+
+13)What are the access specifiers in java?
+Ans:The access modifiers in java specifies the accessibility or scope of a field,method,constructor or class.
+    we can change the access level of fields,constructors,methods,and class by applying the access modifier on it
+    There are four types of access modifiers:
+     1)Private
+     2)Default
+     3)Protected
+     4)public
+
+14)What is structure to write a method?
+Ans:{
+    public static void main(String[] args)
+    {
+     int a=5;//for example 
+     int b=6;
+     int c=a+b;
+     System.out.println(c)
+     }
+     }
+
+15)What are the restrictions that are applied to static methods?
+Ans:A static method can only access static variables it cannot access instance variables.
+    since static method which refer to the class the syntax to call or refer to a static method is:class name
+
+    
